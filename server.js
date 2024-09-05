@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const Todo = require('./models/todoSchema');
+const port = 3001;
 
 const app = express();
 
